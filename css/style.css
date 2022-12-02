@@ -7,6 +7,8 @@ body {
    margin: 15px;
    background: #020A18;
    font-family: 'Open Sans', sans-serif;
+   scroll-behavior: smooth;
+   scrollbar-face-color: #020A18;
 }
 .navigation {
 width: 100%;
@@ -22,7 +24,7 @@ display: flex;
 max-width: 100%;
 }
 #btitle {
-   font-family: 'Open Sans';
+font-family: 'Open Sans', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 22.5455px;
@@ -54,7 +56,7 @@ color: #3A68B8;
    margin-top: 5px;
    color:#FFFFFF; 
    font-size:16;
-   font-family: 'Open Sans';
+   font-family: 'Open Sans', sans-serif;
    font-style: normal;
    font-weight: 600;
   
@@ -154,7 +156,7 @@ font-size: 12px;
 }
 }
    #wtitle {
-      font-family: 'Open Sans';
+      font-family: 'Open Sans', sans-serif;
       font-style: normal;
       font-weight: 800;
       font-size: 55px;
@@ -171,7 +173,7 @@ font-size: 20px;
 margin: 0px;
    }}
    #paragraph {
- font-family: 'Open Sans';
+font-family: 'Open Sans', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -187,7 +189,7 @@ margin: 15px;
    }
    @media only screen and (max-width:31.25rem){    
       #paragraph {
-         font-family: 'Open Sans';
+font-family: 'Open Sans', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -230,5 +232,80 @@ opacity: 0.7;
          max-width: 100%;
       }
     }
-   
+    .logos {
+      max-width: 100%;
+      height: fit-content;
+      display: flex;
+      gap: 3.5px;
+      justify-content: space-around;
+      margin: 0 auto;
+    }
+    .logos img {
+      max-width: 100%;
+      width: 217px;
+      height: 58px;
+    }
+
+   @media only screen and (max-width:31.25rem){ 
+      .logos {
+         margin-top: 15px;
+      }
+      .logos img {
+         width:104px;
+         height: 50px;
+      }
+   }
+   .blocks {
+
+   margin: 0 auto;
+   width: 100%;
+   max-width: 100%;
+   height: fit-content;
+   display: flex;
+   justify-content: space-between;
+   }
+   .block {
+    max-width: 20%;
+    max-height: 389px;
+    display: block;  
+   }
+   .block img {
+      width: 93px;
+      height: 108px;
+      max-width: 100%;
+   }
+
+   @media only screen and (max-width:31.25rem){ 
+    .block img {
+      width: 50%;
+      height: 50%;
+      margin: 0 auto;
+    }
+    .blocks {
+      zoom: 50%;
+      text-align: center;
+    }
+   }
+
+    
+#grey {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 125%;
+text-align: center;
+color: #FFFFFF;
+opacity: 0.7;
+width: 302px;
+height: 62px;
+    }
+
+    @media only screen and (max-width:31.25rem){ 
+      #grey {
+       font-size: 14px;
+       
+        
+      }}
+
 
