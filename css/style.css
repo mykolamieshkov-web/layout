@@ -176,10 +176,10 @@ margin: 0px;
 font-family: 'Open Sans', sans-serif;
 font-style: normal;
 font-weight: 600;
-font-size: 18px;
+font-size: 16px;
 line-height: 160%;
 /* or 29px */
-width: 558px;
+width: 500px;
 height: 87px;
 /* #FFFFFF */
 color: #FFFFFF;
@@ -192,7 +192,7 @@ margin: 15px;
 font-family: 'Open Sans', sans-serif;
 font-style: normal;
 font-weight: 600;
-font-size: 16px;
+font-size: 14px;
 line-height: 160%;
 width: 279px;
 height: 100px;
@@ -292,7 +292,7 @@ opacity: 0.7;
 font-family: 'Open Sans', sans-serif;
 font-style: normal;
 font-weight: 700;
-font-size: 25px;
+font-size: 20px;
 line-height: 125%;
 text-align: center;
 color: #FFFFFF;
@@ -303,7 +303,7 @@ height: 62px;
 
     @media only screen and (max-width:31.25rem){ 
       #grey {
-       font-size: 14px;
+       font-size: 12px;
        
         
       }}
