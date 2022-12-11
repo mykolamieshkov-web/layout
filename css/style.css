@@ -334,7 +334,6 @@ color: #FFFFFF;
 .block_foother {
    width: 100%;
    min-height: 508px;
-   border: 1px solid red;
    display: flex;
    gap: 5px;
    bottom: 0; left: 0;
@@ -355,7 +354,6 @@ color: #FFFFFF;
    
 }
 .foother_text {
-   border: 1px solid green;
    max-width: 280px;
 }
 @media only screen and (max-width:31.25rem){ 
